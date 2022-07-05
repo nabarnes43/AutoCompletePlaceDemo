@@ -37,7 +37,7 @@ public class MainActivity extends AppCompatActivity {
         textView2 = findViewById(R.id.text_view2);
 
         //Initialize Places
-        Places.initialize(getApplicationContext(),"AIzaSyAHKBaHxum5kdPy9qXg2vSbj57te127ScA");
+        Places.initialize(getApplicationContext(),"");
 
         //Set edit text nonFocusable
          editText.setFocusable(false);
